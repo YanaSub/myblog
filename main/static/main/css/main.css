@@ -1,0 +1,41 @@
+body {
+    background: #ffdda3; 	/* Задний фон желтый #febe50 */
+}
+
+aside {
+    float: left;
+    background: #c9f2f3;
+    width: 20%;
+    padding: 5px;
+    height: 100vh;
+}
+
+aside img {
+    width: 90px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 32px;
+}
+
+aside ul {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+main .features {
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+
+main .features h1 { font-size: 40px; }
+main .features p { max-width: 800px; margin: 20px auto; }

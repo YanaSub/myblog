@@ -8,7 +8,11 @@ aside {
     width: 20%;
     padding: 5px;
     height: 100vh;
+    color: black;
+    border-right: 5px solid #4d4d4d;
 }
+
+aside a { text-decoration: none; }
 
 aside img {
     width: 90px;
@@ -38,4 +42,17 @@ main .features {
 }
 
 main .features h1 { font-size: 40px; }
-main .features p { max-width: 800px; margin: 20px auto; }
+main .features p { max-width: 600px; margin: 20px auto; }
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    text-align: left;
+}
+
+form {
+    margin-left: 300px;
+    width: 500px;
+    margin-top: 50px;
+}

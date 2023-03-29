@@ -8,10 +8,11 @@
 
         {% if news %}
             {% for el in news %}
-            <div class="alert alert-warning" style="width: 600px; text-align: left; margin: 20px 23%;">
+            <div class="alert alert-warning" style="width: 600px; text-align: justify; margin: 20px 23%;">
                 <h3>{{ el.title }}</h3>
                 <p>{{ el.date }}</p>
                 <p>{{ el.text }}</p>
+                <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Подробнее</a>
             </div>
             {% endfor %}
         {% else %}
